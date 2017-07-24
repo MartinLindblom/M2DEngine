@@ -71,7 +71,7 @@ public abstract class GameObject
 
     public GameObject instantiate(GameObject gameObject, String name, List<String> tags, GameObject parent)
     {
-        return getScene().instantiateInScene(gameObject, name, tags, parent);
+        return getScene().instantiateInScene(gameObject, parent);
     }
 
 

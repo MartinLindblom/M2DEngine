@@ -113,7 +113,7 @@ public abstract class Scene
 
 
 
-    public GameObject instantiateInScene(GameObject gameObject, String name, List<String> tags, GameObject parent)
+    public GameObject instantiateInScene(GameObject gameObject, GameObject parent)
     {
         registerGameObject(gameObject);
 
